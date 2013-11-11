@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: CKAN\n"
 "Report-Msgid-Bugs-To: http://trac.ckan.org/\n"
 "POT-Creation-Date: 2013-07-01 17:35+0100\n"
-"PO-Revision-Date: 2013-07-01 17:00+0000\n"
+"PO-Revision-Date: 2013-11-11 13:45+0100\n"
 "Last-Translator: amercader <amercadero@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/ckan/language/"
 "it/)\n"
@@ -500,7 +500,7 @@ msgstr "Non sei autorizzato a modificare il dataset"
 #: ckan/controllers/package.py:597 ckan/controllers/package.py:629
 #: ckan/controllers/package.py:657
 msgid "The dataset {id} could not be found."
-msgstr ""
+msgstr "Il dataset {id} non è stato trovato"
 
 #: ckan/controllers/package.py:600
 msgid "You must add at least one data resource"
@@ -690,7 +690,7 @@ msgstr "Tag non trovato"
 
 #: ckan/controllers/user.py:147
 msgid "Unauthorized to register as a user."
-msgstr ""
+msgstr "Non sei autorizzato a registrare un utente"
 
 #: ckan/controllers/user.py:163
 msgid "Unauthorized to create a user"
@@ -851,11 +851,11 @@ msgstr "{actor} ha aggiornato il suo profilo"
 #: ckan/lib/activity_streams.py:86
 msgid ""
 "{actor} updated the {related_type} {related_item} of the dataset {dataset}"
-msgstr ""
+msgstr "{actor} ha aggiornato il/la {related_type} {related_item} del dataset {dataset}"
 
 #: ckan/lib/activity_streams.py:89
 msgid "{actor} updated the {related_type} {related_item}"
-msgstr ""
+msgstr "{actor} ha aggiornato il/la {related_type} {related_item}"
 
 #: ckan/lib/activity_streams.py:92
 msgid "{actor} deleted the group {group}"
@@ -930,7 +930,7 @@ msgstr ""
 
 #: ckan/lib/activity_streams.py:145
 msgid "{actor} added the {related_type} {related_item}"
-msgstr ""
+msgstr "{actor} ha aggiunto il/la {related_type} {related_item}"
 
 #: ckan/lib/email_notifications.py:103
 msgid "1 new activity from {site_title}"
@@ -1078,7 +1078,7 @@ msgstr "Sconosciuto"
 
 #: ckan/lib/helpers.py:951
 msgid "Unnamed resource"
-msgstr ""
+msgstr "Risorsa senza nome"
 
 #: ckan/lib/helpers.py:998
 msgid "Created new dataset."
@@ -1106,7 +1106,7 @@ msgstr[1] "{number} visualizzazioni recenti"
 
 #: ckan/lib/helpers.py:1507
 msgid "The resource url is not specified."
-msgstr ""
+msgstr "L'url della risorsa non è specificato"
 
 #: ckan/lib/helpers.py:1525
 msgid "No preview handler for resource of type {0}"
@@ -1114,7 +1114,7 @@ msgstr ""
 
 #: ckan/lib/helpers.py:1529
 msgid "The resource format is not specified."
-msgstr ""
+msgstr "Il formato della risorsa non è specificato"
 
 #: ckan/lib/mailer.py:25
 #, python-format
@@ -1267,7 +1267,7 @@ msgstr "Numero intero non valido"
 
 #: ckan/logic/validators.py:65
 msgid "Must be natural number"
-msgstr ""
+msgstr "Dev'essere un numero naturale"
 
 #: ckan/logic/validators.py:83
 msgid "Date format incorrect"
@@ -1492,7 +1492,7 @@ msgstr "Devi essere autenticato per seguire un dataset."
 
 #: ckan/logic/action/create.py:1129
 msgid "User {username} does not exist."
-msgstr ""
+msgstr "L'utente {username} non esiste"
 
 #: ckan/logic/action/create.py:1199 ckan/logic/action/create.py:1207
 msgid "You must be logged in to follow a group."
@@ -1601,7 +1601,7 @@ msgstr "L'utente %s non è autorizzato a modificare questi gruppi"
 #: ckan/logic/auth/create.py:29
 #, python-format
 msgid "User %s not authorized to add dataset to this organization"
-msgstr ""
+msgstr "L'utente %s non è autorizzato a creare dataset per questa organizzazione"
 
 #: ckan/logic/auth/create.py:51
 msgid "You must be a sysadmin to create a featured related item"
@@ -1773,7 +1773,7 @@ msgstr "L'utente %s non è autorizzato a modificare i permessi del gruppo %s"
 
 #: ckan/logic/auth/update.py:183
 msgid "Have to be logged in to edit user"
-msgstr ""
+msgstr "Devi essere autenticato per modificare un utente"
 
 #: ckan/logic/auth/update.py:191
 #, python-format
@@ -2321,7 +2321,7 @@ msgstr ""
 
 #: ckan/templates/ajax_snippets/api_info.html:93
 msgid "Example: Javascript"
-msgstr ""
+msgstr "Esempio: Javascript"
 
 #: ckan/templates/ajax_snippets/api_info.html:97
 msgid "A simple ajax (JSONP) request to the data API using jQuery."
@@ -3863,15 +3863,15 @@ msgstr "Pulisci tutto"
 
 #: ckan/templates/snippets/facet_list.html:73
 msgid "Show More {facet_type}"
-msgstr ""
+msgstr "Mostra altri {facet_type}"
 
 #: ckan/templates/snippets/facet_list.html:75
 msgid "Show Only Popular {facet_type}"
-msgstr ""
+msgstr "Mostra solo {facet_type} popolari"
 
 #: ckan/templates/snippets/facet_list.html:79
 msgid "There are no {facet_type} that match this search"
-msgstr ""
+msgstr "Non ci sono {facet_type} per questa ricerca"
 
 #: ckan/templates/snippets/home_breadcrumb_item.html:2
 #: ckan/templates_legacy/admin/layout.html:10
@@ -3881,7 +3881,7 @@ msgstr "Home"
 
 #: ckan/templates/snippets/language_selector.html:4
 msgid "Language"
-msgstr "Linguaggio"
+msgstr "Lingua"
 
 #: ckan/templates/snippets/language_selector.html:12
 #: ckan/templates/snippets/search_form.html:36
@@ -4022,7 +4022,7 @@ msgstr "Modifiche"
 
 #: ckan/templates/tag/index.html:33 ckan/templates/tag/index.html:34
 msgid "Search Tags"
-msgstr ""
+msgstr "Cerca Tags"
 
 #: ckan/templates/user/dashboard.html:4 ckan/templates/user/edit.html:7
 #: ckan/templates/user/edit_base.html:5
@@ -4042,12 +4042,12 @@ msgstr "I miei dataset"
 #: ckan/templates/user/dashboard.html:20
 #: ckan/templates/user/dashboard_organizations.html:12
 msgid "My Organizations"
-msgstr ""
+msgstr "Le mie Organizzazioni"
 
 #: ckan/templates/user/dashboard.html:21
 #: ckan/templates/user/dashboard_groups.html:12
 msgid "My Groups"
-msgstr ""
+msgstr "I miei Gruppi"
 
 #: ckan/templates/user/dashboard.html:33
 msgid "Activity from items that you follow"
@@ -6311,3 +6311,9 @@ msgid ""
 "conditions</a> and that you have read our <a href=\"{pp_url}\">Privacy "
 "policy</a>."
 msgstr ""
+"Registrando un utente, accetti le nostre <a href=\"{tc_url}\">Condizioni</a> e confermi\n"
+"di aver letto la nostra <a href=\"{pp_url}\">Informativa sulla Privacy</a>"
+
+#: Custom: categories (not extracted..)
+msgid "Categories"
+msgstr "Categorie"
