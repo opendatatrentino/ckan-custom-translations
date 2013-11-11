@@ -3,6 +3,8 @@
 TARGETS := i18n/it/LC_MESSAGES/ckan.mo \
 	   i18n/en_GB/LC_MESSAGES/ckan.mo
 
+## Note: this should be set from environment:
+## make SOURCESDIR=/path/to/sources/root
 SOURCESDIR := $(HOME)/Projects/dati-trentino-2
 
 # Source .po files for translations
