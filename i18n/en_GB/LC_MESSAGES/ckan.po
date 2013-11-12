@@ -6229,8 +6229,104 @@ msgstr ""
 msgid "Choose area"
 msgstr "Choose area"
 
+#: ckanext/datitrentinoit/templates/footer.html:11
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/footer.html:15
+#: ckanext/datitrentinoit/templates/pages/acknowledgements.html:3
+#: ckanext/datitrentinoit/templates/pages/acknowledgements.html:7
+#: ckanext/datitrentinoit/templates/pages/acknowledgements.html:17
+msgid "Acknowledgements"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/footer.html:18
+#: ckanext/datitrentinoit/templates/pages/legal_notes.html:5
+#: ckanext/datitrentinoit/templates/pages/legal_notes.html:9
+msgid "Legal notes"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/footer.html:21
+#: ckanext/datitrentinoit/templates/pages/privacy.html:5
+#: ckanext/datitrentinoit/templates/pages/privacy.html:9
+msgid "Privacy"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/header.html:24
+#: ckanext/datitrentinoit/templates/group/index.html:7
+#: ckanext/datitrentinoit/templates/group/index.html:20
+msgid "Categories"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/header.html:25
+msgid "Apps"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/header.html:27
+#: ckanext/datitrentinoit/templates/pages/faq.html:5
+#: ckanext/datitrentinoit/templates/pages/faq.html:9
+#: ckanext/datitrentinoit/templates/pages/faq.html:19
+msgid "FAQ"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/group/index.html:3
+msgid "Categories of Datasets"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/group/index.html:14
+msgid "Add Category"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/group/index.html:22
+msgid "Search categories..."
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/group/index.html:29
+msgid "There are currently no categories for this site"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/group/index.html:47
+msgid "About categories"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/group/index.html:51
+msgid ""
+"\n"
+"        You can use CKAN Groups to create and manage collections of\n"
+"        datasets. This could be to catalogue datasets for a particular "
+"project\n"
+"        or team, or on a particular theme, or as a very simple way to help\n"
+"        people find and search your own published datasets.\n"
+"        "
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/group/snippets/group_form.html:10
+msgid "My Category"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/group/snippets/group_form.html:20
+msgid "A little information about my category..."
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/group/snippets/group_form.html:80
+msgid "Save Category"
+msgstr ""
+
 #: ckanext/datitrentinoit/templates/group/snippets/group_item.html:26
 msgid "This category has no description"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/package/base_form_page.html:5
+msgid "About datasets"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/package/base_form_page.html:8
+msgid ""
+"\n"
+"        A CKAN Dataset is a collection of data resources (such as files),\n"
+"        together with a description and other information, at a fixed URL.\n"
+"        Datasets are what users see when searching for data.\n"
+"        "
 msgstr ""
 
 #: ckanext/datitrentinoit/templates/snippets/search_result_text.html:21
