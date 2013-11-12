@@ -29,22 +29,23 @@ LANGUAGES := it en_GB
 
 ## Source .pot files for translations
 SOURCE_POTS := i18n/custom.pot $(SOURCESDIR)/ckan/ckan/i18n/ckan.pot
-SOURCE_POTS += $(foreach plugin,$(PLUGINS),$(SOURCESDIR)/ckanext-$(plugin)/ckanext/$(plugin)/i18n/ckanext-$(plugin).pot
-ALL_POT := i18n/all_%.po
+SOURCE_POTS += $(foreach plugin,$(PLUGINS),$(SOURCESDIR)/ckanext-$(plugin)/ckanext/$(plugin)/i18n/ckanext-$(plugin).pot)
+AGGREGATE_POT := i18n/all.pot
 
 ## Source .po files for translations
 SOURCE_POS := i18n/%/LC_MESSAGES/ckan.po \
               $(SOURCESDIR)/ckan/ckan/i18n/%/LC_MESSAGES/ckan.po
 SOURCE_POS += $(foreach plugin,$(PLUGINS),$(SOURCESDIR)/ckanext-$(plugin)/ckanext/$(plugin)/i18n/%/LC_MESSAGES/ckanext-$(plugin).po)
-ALL_PO := i18n/all_%.po
-ALL_PO_TARGETS := $(foreach lang,$(LANGUAGES),aggregate_pos_$(lang))
+AGGREGATE_PO := i18n/all_%.po
+AGGREGATE_PO_TARGETS := $(foreach lang,$(LANGUAGES),aggregate_pos_$(lang))
+AGGREGATE_PO_FILES := $(foreach lang,$(LANGUAGES),i18n/all_$(lang).po)
 
 ## Custom .po for a language
 CUSTOM_PO := i18n/%/LC_MESSAGES/ckan.po
 CUSTOM_PO_TARGETS := $(foreach lang,$(LANGUAGES),custom_po_$(lang))
+CUSTOM_PO_FILES := $(foreach lang,$(LANGUAGES),i18n/$(lang)/LC_MESSAGES/ckan.po)
 
 ## Actual .po/.mo files to build
-CUSTOM_PO_FILES := $(foreach lang,$(LANGUAGES),i18n/$(lang)/LC_MESSAGES/ckan.po)
 MO_TARGETS := $(patsubst %.po,%.mo,$(CUSTOM_PO_FILES))
 
 
@@ -54,11 +55,11 @@ all: $(MO_TARGETS)
 ##------------------------------------------------------------
 ## POT aggregation
 
-aggregate_pots: $(ALL_POT)
+aggregate_pots: $(AGGREGATE_POT)
 
 ## Merge .pot files by concatenating all the .pots
-$(ALL_POT): $(SOURCE_POTS)
-	@echo "Merging .pot files"
+$(AGGREGATE_POT): $(SOURCE_POTS)
+	@echo "--- Merging .pot files"
 	msgcat --use-first $^ -o $@
 
 
@@ -67,11 +68,11 @@ $(ALL_POT): $(SOURCE_POTS)
 ## This is a bit tricky, as we need to aggregate
 ## A, B and C into A..
 
-aggregate_pos_%: $(ALL_PO)
+aggregate_pos_%: $(AGGREGATE_PO)
 
 ## Create an aggregate .po file by merging all the translations
-$(ALL_PO): $(SOURCE_POS)
-	@echo "Creating aggregate .po file"
+$(AGGREGATE_PO): $(SOURCE_POS)
+	@echo "--- Creating aggregate .po file"
 	msgcat --use-first $^ -o $@
 
 
@@ -81,8 +82,8 @@ $(ALL_PO): $(SOURCE_POS)
 
 custom_po_%: $(CUSTOM_PO)
 
-$(CUSTOM_PO): $(ALL_PO) $(ALL_POT)
-	@echo "Merging translations in new .pot file"
+$(CUSTOM_PO): $(AGGREGATE_PO) $(AGGREGATE_POT)
+	@echo "--- Merging translations in new .pot file"
 	msgmerge $^ -o $@
 
 
@@ -92,6 +93,7 @@ $(CUSTOM_PO): $(ALL_PO) $(ALL_POT)
 build_mo: $(MO_TARGETS)
 
 $(MO_TARGETS): %.mo: %.po
+	@echo "--- Building .po -> .mo files"
 	msgfmt $< -o $@
 
 
@@ -100,5 +102,5 @@ $(MO_TARGETS): %.mo: %.po
 
 clean:
 	rm -f $(MO_TARGETS)
-	rm -f $(CUSTOM_PO_FILES)
-	rm -f $(ALL_POT)
+	rm -f $(AGGREGATE_POT)
+	rm -f $(AGGREGATE_PO_FILES)
