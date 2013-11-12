@@ -33,8 +33,11 @@ SOURCE_POTS += $(foreach plugin,$(PLUGINS),$(SOURCESDIR)/ckanext-$(plugin)/ckane
 AGGREGATE_POT := i18n/all.pot
 
 ## Source .po files for translations
-SOURCE_POS := i18n/%/LC_MESSAGES/ckan.po \
-              $(SOURCESDIR)/ckan/ckan/i18n/%/LC_MESSAGES/ckan.po
+
+## WARNING! We cannot include i18n/%/LC_MESSAGES/ckan.po
+##          here, as we would have a circular dependency!
+
+SOURCE_POS := $(SOURCESDIR)/ckan/ckan/i18n/%/LC_MESSAGES/ckan.po
 SOURCE_POS += $(foreach plugin,$(PLUGINS),$(SOURCESDIR)/ckanext-$(plugin)/ckanext/$(plugin)/i18n/%/LC_MESSAGES/ckanext-$(plugin).po)
 AGGREGATE_PO := i18n/all_%.po
 AGGREGATE_PO_TARGETS := $(foreach lang,$(LANGUAGES),aggregate_pos_$(lang))
@@ -73,7 +76,10 @@ aggregate_pos_%: $(AGGREGATE_PO)
 ## Create an aggregate .po file by merging all the translations
 $(AGGREGATE_PO): $(SOURCE_POS)
 	@echo "--- Creating aggregate .po file"
-	msgcat --use-first $^ -o $@
+
+	@# We need the name of the custom .po for this language
+	@# but we need to do some trickery to get it..
+	msgcat --use-first $(patsubst $(AGGREGATE_PO),$(CUSTOM_PO),$@) $^ -o $@
 
 
 ##------------------------------------------------------------
