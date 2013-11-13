@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: CKAN\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2013-07-01 17:35+0100\n"
-"PO-Revision-Date: 2013-11-11 13:45+0100\n"
+"PO-Revision-Date: 2013-11-13 12:01+0100\n"
 "Last-Translator: amercader <amercadero@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/ckan/language/"
 "it/)\n"
@@ -726,7 +726,7 @@ msgstr "Nessun utente specificato"
 
 #: ckan/controllers/user.py:234
 msgid "Unauthorized to edit a user."
-msgstr ""
+msgstr "Non sei autorizzato a modificare un utente"
 
 #: ckan/controllers/user.py:252 ckan/controllers/user.py:293
 #: ckan/controllers/user.py:472
@@ -758,7 +758,7 @@ msgstr " (O se si usa OpenID, non è stato associato ad un account utente.)"
 
 #: ckan/controllers/user.py:384
 msgid "Unauthorized to request reset password."
-msgstr ""
+msgstr "Non sei autorizzato a richiedere un reset della password"
 
 #: ckan/controllers/user.py:413
 #, python-format
@@ -781,7 +781,7 @@ msgstr "Impossibile inviare il codice di reset: %s"
 
 #: ckan/controllers/user.py:443
 msgid "Unauthorized to reset password."
-msgstr ""
+msgstr "Non sei autorizzato a effettuare un reset della password"
 
 #: ckan/controllers/user.py:458
 msgid "Invalid reset key. Please try again."
@@ -928,7 +928,7 @@ msgstr "{actor} ha cominciato a seguire {group}"
 #: ckan/lib/activity_streams.py:142
 msgid ""
 "{actor} added the {related_type} {related_item} to the dataset {dataset}"
-msgstr ""
+msgstr "{actor} ha aggiunto il {related_type} {related_item} al dataset {dataset}"
 
 #: ckan/lib/activity_streams.py:145
 msgid "{actor} added the {related_type} {related_item}"
@@ -1813,7 +1813,7 @@ msgstr "Licenza non specificata"
 
 #: ckan/model/license.py:187
 msgid "Open Data Commons Public Domain Dedication and License (PDDL)"
-msgstr ""
+msgstr "Open Data Commons Public Domain Dedication and License (PDDL)"
 
 #: ckan/model/license.py:197
 msgid "Open Data Commons Open Database License (ODbL)"
@@ -2268,11 +2268,11 @@ msgstr "Leggi la documentazione"
 
 #: ckan/templates/ajax_snippets/api_info.html:19
 msgid "CKAN Data API"
-msgstr ""
+msgstr "CKAN Data API"
 
 #: ckan/templates/ajax_snippets/api_info.html:23
 msgid "Access resource data via a web API with powerful query support"
-msgstr ""
+msgstr "Accedi ai dati delle risorse attraverso un'API web con supporto per query avanzate"
 
 #: ckan/templates/ajax_snippets/api_info.html:24
 msgid ""
@@ -2310,15 +2310,15 @@ msgstr "Query (via SQL)"
 
 #: ckan/templates/ajax_snippets/api_info.html:66
 msgid "Querying"
-msgstr ""
+msgstr "Effettuare query"
 
 #: ckan/templates/ajax_snippets/api_info.html:70
 msgid "Query example (first 5 results)"
-msgstr ""
+msgstr "Esempio di query (primi 5 risultati)"
 
 #: ckan/templates/ajax_snippets/api_info.html:75
 msgid "Query example (results containing 'jones')"
-msgstr ""
+msgstr "Esempio di query (risultati contenenti 'jones')"
 
 #: ckan/templates/ajax_snippets/api_info.html:81
 msgid "Query example (via SQL statement)"
@@ -2334,7 +2334,7 @@ msgstr ""
 
 #: ckan/templates/ajax_snippets/api_info.html:118
 msgid "Example: Python"
-msgstr ""
+msgstr "Esempio: Python"
 
 #: ckan/templates/dataviewer/snippets/data_preview.html:9
 msgid "This resource can not be previewed at the moment."
