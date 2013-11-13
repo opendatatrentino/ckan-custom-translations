@@ -233,7 +233,7 @@ msgstr "Registro sconosciuto: %s"
 #: ckan/controllers/api.py:575
 #, python-format
 msgid "Malformed qjson value: %r"
-msgstr ""
+msgstr "Valore qjson malformato: %r"
 
 #: ckan/controllers/api.py:585
 msgid "Request params must be in form of a json encoded dictionary."
@@ -312,7 +312,7 @@ msgstr "Licenza"
 
 #: ckan/controllers/group.py:401
 msgid "Not authorized to perform bulk update"
-msgstr ""
+msgstr "Non sei autorizzato ad effettuare un aggiornamento \"bulk\""
 
 #: ckan/controllers/group.py:418
 msgid "Unauthorized to create a group"
@@ -1112,7 +1112,7 @@ msgstr "L'url della risorsa non è specificato"
 
 #: ckan/lib/helpers.py:1525
 msgid "No preview handler for resource of type {0}"
-msgstr ""
+msgstr "Nessun gestore di anteprima per risorse di tipo {0}"
 
 #: ckan/lib/helpers.py:1529
 msgid "The resource format is not specified."
@@ -1429,15 +1429,15 @@ msgstr "il ruolo non esiste."
 
 #: ckan/logic/validators.py:638
 msgid "Not a list"
-msgstr ""
+msgstr "Non è una lista"
 
 #: ckan/logic/validators.py:641
 msgid "Not a string"
-msgstr ""
+msgstr "Non è una stringa"
 
 #: ckan/logic/validators.py:647
 msgid "Datasets with no organization can't be private."
-msgstr ""
+msgstr "Dataset senza un'organizzazione non possono essere privati"
 
 #: ckan/logic/action/create.py:153 ckan/logic/action/create.py:505
 #, python-format
@@ -1541,7 +1541,7 @@ msgstr "Non stai seguendo {0}."
 
 #: ckan/logic/action/get.py:115
 msgid "Must be larger than 0"
-msgstr ""
+msgstr "Dev'essere maggiore di zero"
 
 #: ckan/logic/action/get.py:1526
 msgid "Do not specify if using \"query\" parameter"
@@ -2032,6 +2032,8 @@ msgid ""
 "You are uploading a file. Are you sure you want to navigate away and stop "
 "this upload?"
 msgstr ""
+"Stai caricando un file. Sei sicuro di voler lasciare la pagina e fermare "
+"questo upload?"
 
 #: ckan/public/base/javascript/modules/slug-preview.js:32
 #: ckan/templates/group/snippets/group_form.html:18
@@ -2281,7 +2283,7 @@ msgstr ""
 
 #: ckan/templates/ajax_snippets/api_info.html:33
 msgid "Endpoints"
-msgstr ""
+msgstr "Endpoint"
 
 #: ckan/templates/ajax_snippets/api_info.html:37
 msgid ""
@@ -2296,15 +2298,15 @@ msgstr "Crea"
 
 #: ckan/templates/ajax_snippets/api_info.html:46
 msgid "Update / Insert"
-msgstr ""
+msgstr "Aggiorna / Inserisci"
 
 #: ckan/templates/ajax_snippets/api_info.html:50
 msgid "Query"
-msgstr ""
+msgstr "Query"
 
 #: ckan/templates/ajax_snippets/api_info.html:54
 msgid "Query (via SQL)"
-msgstr ""
+msgstr "Query (via SQL)"
 
 #: ckan/templates/ajax_snippets/api_info.html:66
 msgid "Querying"
@@ -2353,7 +2355,7 @@ msgstr "Il tuo browser non supporta gli iframes."
 
 #: ckan/templates/dataviewer/snippets/no_preview.html:3
 msgid "No preview available."
-msgstr ""
+msgstr "Nessun'anteprima disponibile."
 
 #: ckan/templates/dataviewer/snippets/no_preview.html:5
 msgid "More details..."
@@ -2502,7 +2504,7 @@ msgstr "Modifica gruppo"
 
 #: ckan/templates/group/edit_base.html:14
 msgid "View group"
-msgstr ""
+msgstr "Mostra gruppo"
 
 #: ckan/templates/group/edit_base.html:19 ckan/templates/group/members.html:3
 #: ckan/templates/organization/edit_base.html:25
@@ -2548,7 +2550,7 @@ msgstr "Aggiungi un gruppo"
 
 #: ckan/templates/group/index.html:20
 msgid "Search groups..."
-msgstr ""
+msgstr "Cerca gruppi..."
 
 #: ckan/templates/group/index.html:27
 msgid "There are currently no groups for this site"
@@ -2671,7 +2673,7 @@ msgstr "Aggiungi un dataset"
 
 #: ckan/templates/group/read.html:18 ckan/templates/organization/read.html:19
 msgid "Search datasets..."
-msgstr ""
+msgstr "Cerca dataset..."
 
 #: ckan/templates/group/snippets/feeds.html:3
 #: ckan/templates/organization/snippets/feeds.html:3
@@ -2781,7 +2783,7 @@ msgstr ""
 #: ckan/templates/group/snippets/history_revisions.html:10
 #: ckan/templates/package/snippets/history_revisions.html:10
 msgid "Compare"
-msgstr ""
+msgstr "Compara"
 
 #: ckan/templates/group/snippets/info.html:12
 #: ckan/templates/package/snippets/package_context.html:7
@@ -2947,15 +2949,15 @@ msgstr "Modulo organizzazione"
 #: ckan/templates/organization/bulk_process.html:3
 #: ckan/templates/organization/bulk_process.html:11
 msgid "Edit datasets"
-msgstr ""
+msgstr "Modifica dataset"
 
 #: ckan/templates/organization/bulk_process.html:6
 msgid "Add dataset"
-msgstr ""
+msgstr "Aggiungi dataset"
 
 #: ckan/templates/organization/bulk_process.html:16
 msgid " found for \"{query}\""
-msgstr ""
+msgstr " trovato per \"{query}\""
 
 #: ckan/templates/organization/bulk_process.html:18
 #: ckan/templates/snippets/search_result_text.html:16
@@ -2964,11 +2966,11 @@ msgstr "Spiacente, nessun dataset trovato per \"{query}\""
 
 #: ckan/templates/organization/bulk_process.html:37
 msgid "Make public"
-msgstr ""
+msgstr "Rendi pubblico"
 
 #: ckan/templates/organization/bulk_process.html:41
 msgid "Make private"
-msgstr ""
+msgstr "Rendi privato"
 
 #: ckan/templates/organization/bulk_process.html:70
 #: ckan/templates/package/read.html:20
@@ -2997,7 +2999,7 @@ msgstr "Questo dataset non ha una descrizione"
 
 #: ckan/templates/organization/bulk_process.html:90
 msgid "This organization has no datasets associated to it"
-msgstr ""
+msgstr "Questa organizzazione non ha nessun dataset associato"
 
 #: ckan/templates/organization/bulk_process.html:99
 #: ckan/templates/package/search.html:30
@@ -3045,7 +3047,7 @@ msgstr "Aggiungi Organizzazione"
 
 #: ckan/templates/organization/index.html:20
 msgid "Search organizations..."
-msgstr ""
+msgstr "Cerca organizzazioni..."
 
 #: ckan/templates/organization/index.html:27
 msgid "There are currently no organizations for this site"
@@ -3134,7 +3136,7 @@ msgstr "Questa organizzazione non ha descrizione"
 #: ckan/templates/organization/snippets/organization_item.html:37
 #: ckan/templates/organization/snippets/organization_item.html:38
 msgid "View {organization_name}"
-msgstr ""
+msgstr "Mostra {organization_name}"
 
 #: ckan/templates/package/base.html:20
 #: ckan/templates/package/snippets/new_package_breadcrumb.html:2
@@ -3243,7 +3245,7 @@ msgstr "API Endpoint"
 #: ckan/templates/package/resource_read.html:40
 #: ckan/templates/package/snippets/resource_item.html:43
 msgid "Go to resource"
-msgstr ""
+msgstr "Vai alla risorsa"
 
 #: ckan/templates/package/resource_read.html:42
 #: ckan/templates/package/snippets/resource_item.html:40
@@ -3590,7 +3592,7 @@ msgstr "Anteprima"
 
 #: ckan/templates/package/snippets/resource_item.html:32
 msgid "More information"
-msgstr ""
+msgstr "Più informazioni"
 
 #: ckan/templates/package/snippets/resources_list.html:13
 msgid "Data and Resources"
@@ -3769,7 +3771,7 @@ msgstr "Sei sicuro di voler eliminare questo elemento correlato?"
 
 #: ckan/templates/related/snippets/related_item.html:16
 msgid "Go to {related_item_type}"
-msgstr ""
+msgstr "Vai a {related_item_type}"
 
 #: ckan/templates/related/snippets/related_item.html:23
 msgid "This item has no description"
@@ -3777,12 +3779,12 @@ msgstr "Questo elemento non ha descrizione"
 
 #: ckan/templates/revision/diff.html:6
 msgid "Differences"
-msgstr ""
+msgstr "Differenze"
 
 #: ckan/templates/revision/diff.html:13 ckan/templates/revision/diff.html:18
 #: ckan/templates/revision/diff.html:23
 msgid "Revision Differences"
-msgstr ""
+msgstr "Differenze della revisione"
 
 #: ckan/templates/revision/diff.html:44
 #: ckan/templates_legacy/revision/diff.html:32
@@ -3791,7 +3793,7 @@ msgstr "Differenza"
 
 #: ckan/templates/revision/diff.html:54
 msgid "No Differences"
-msgstr ""
+msgstr "Non ci sono differenze"
 
 #: ckan/templates/revision/list.html:3 ckan/templates/revision/list.html:6
 #: ckan/templates/revision/list.html:10
@@ -4070,11 +4072,11 @@ msgstr "Vuoi crearne uno?"
 
 #: ckan/templates/user/dashboard_groups.html:20
 msgid "You are not a member of any groups."
-msgstr ""
+msgstr "Non sei membro di alcun gruppo"
 
 #: ckan/templates/user/dashboard_organizations.html:20
 msgid "You are not a member of any organizations."
-msgstr ""
+msgstr "None sei membro di alcuna organizzazione"
 
 #: ckan/templates/user/edit.html:10 ckan/templates/user/list.html:6
 #: ckan/templates/user/list.html:13 ckan/templates/user/read_base.html:8
@@ -6037,7 +6039,7 @@ msgstr "Nome utente:"
 
 #: ckanext/datastore/controller.py:31
 msgid "DataStore resource not found"
-msgstr ""
+msgstr "Risorsa non trovata nel datastore"
 
 #: ckanext/datastore/logic/action.py:140 ckanext/datastore/logic/action.py:184
 #: ckanext/datastore/logic/action.py:268 ckanext/datastore/logic/action.py:352
@@ -6286,26 +6288,26 @@ msgstr "Scegli un'area"
 
 #: ckanext/datitrentinoit/templates/footer.html:11
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Domande frequenti"
 
 #: ckanext/datitrentinoit/templates/footer.html:15
 #: ckanext/datitrentinoit/templates/pages/acknowledgements.html:3
 #: ckanext/datitrentinoit/templates/pages/acknowledgements.html:7
 #: ckanext/datitrentinoit/templates/pages/acknowledgements.html:17
 msgid "Acknowledgements"
-msgstr ""
+msgstr "Ringraziamenti"
 
 #: ckanext/datitrentinoit/templates/footer.html:18
 #: ckanext/datitrentinoit/templates/pages/legal_notes.html:5
 #: ckanext/datitrentinoit/templates/pages/legal_notes.html:9
 msgid "Legal notes"
-msgstr ""
+msgstr "Note legali"
 
 #: ckanext/datitrentinoit/templates/footer.html:21
 #: ckanext/datitrentinoit/templates/pages/privacy.html:5
 #: ckanext/datitrentinoit/templates/pages/privacy.html:9
 msgid "Privacy"
-msgstr ""
+msgstr "Privacy"
 
 #: ckanext/datitrentinoit/templates/header.html:24
 #: ckanext/datitrentinoit/templates/group/index.html:7
@@ -6315,34 +6317,34 @@ msgstr "Categorie"
 
 #: ckanext/datitrentinoit/templates/header.html:25
 msgid "Apps"
-msgstr ""
+msgstr "Apps"
 
 #: ckanext/datitrentinoit/templates/header.html:27
 #: ckanext/datitrentinoit/templates/pages/faq.html:5
 #: ckanext/datitrentinoit/templates/pages/faq.html:9
 #: ckanext/datitrentinoit/templates/pages/faq.html:19
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: ckanext/datitrentinoit/templates/group/index.html:3
 msgid "Categories of Datasets"
-msgstr ""
+msgstr "Categorie di Dataset"
 
 #: ckanext/datitrentinoit/templates/group/index.html:14
 msgid "Add Category"
-msgstr ""
+msgstr "Aggiungi Categoria"
 
 #: ckanext/datitrentinoit/templates/group/index.html:22
 msgid "Search categories..."
-msgstr ""
+msgstr "Cerca categorie..."
 
 #: ckanext/datitrentinoit/templates/group/index.html:29
 msgid "There are currently no categories for this site"
-msgstr ""
+msgstr "Non ci sono al momento categorie per questo sito"
 
 #: ckanext/datitrentinoit/templates/group/index.html:47
 msgid "About categories"
-msgstr ""
+msgstr "Informazioni sulle categorie"
 
 #: ckanext/datitrentinoit/templates/group/index.html:51
 msgid ""
@@ -6357,15 +6359,15 @@ msgstr ""
 
 #: ckanext/datitrentinoit/templates/group/snippets/group_form.html:10
 msgid "My Category"
-msgstr ""
+msgstr "La mia Categoria"
 
 #: ckanext/datitrentinoit/templates/group/snippets/group_form.html:20
 msgid "A little information about my category..."
-msgstr ""
+msgstr "Più informazioni sulla mia categoria..."
 
 #: ckanext/datitrentinoit/templates/group/snippets/group_form.html:80
 msgid "Save Category"
-msgstr ""
+msgstr "Salva Categoria"
 
 #: ckanext/datitrentinoit/templates/group/snippets/group_item.html:26
 msgid "This category has no description"
