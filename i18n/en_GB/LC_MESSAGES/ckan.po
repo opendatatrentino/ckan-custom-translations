@@ -6229,6 +6229,10 @@ msgstr ""
 msgid "Choose area"
 msgstr "Choose area"
 
+#: ckanext/datitrentinoit/templates/base.html:8
+msgid "{title} Atom Feed"
+msgstr ""
+
 #: ckanext/datitrentinoit/templates/footer.html:11
 msgid "Frequently Asked Questions"
 msgstr ""
@@ -6315,10 +6319,18 @@ msgstr ""
 msgid "This category has no description"
 msgstr ""
 
-#: ckanext/datitrentinoit/templates/home/index.html:103
+#: ckanext/datitrentinoit/templates/home/index.html:97
 msgid ""
 "Search for data, and get updates from datasets and groups that you're "
 "interested in."
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/home/index.html:144
+msgid "Latest changes"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/home/index.html:145
+msgid "See which are the most recent changes to datasets."
 msgstr ""
 
 #: ckanext/datitrentinoit/templates/package/base_form_page.html:5

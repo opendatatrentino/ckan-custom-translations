@@ -6289,6 +6289,10 @@ msgstr ""
 msgid "Choose area"
 msgstr "Scegli un'area"
 
+#: ckanext/datitrentinoit/templates/base.html:8
+msgid "{title} Atom Feed"
+msgstr ""
+
 #: ckanext/datitrentinoit/templates/footer.html:11
 msgid "Frequently Asked Questions"
 msgstr "Domande frequenti"
@@ -6375,13 +6379,21 @@ msgstr "Salva Categoria"
 msgid "This category has no description"
 msgstr "Questa categoria non ha descrizione"
 
-#: ckanext/datitrentinoit/templates/home/index.html:103
+#: ckanext/datitrentinoit/templates/home/index.html:97
 msgid ""
 "Search for data, and get updates from datasets and groups that you're "
 "interested in."
 msgstr ""
 "Cerca i dati, e ottieni gli aggiornamenti per i dataset e i gruppi a cui sei "
 "interessato."
+
+#: ckanext/datitrentinoit/templates/home/index.html:144
+msgid "Latest changes"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/home/index.html:145
+msgid "See which are the most recent changes to datasets."
+msgstr ""
 
 #: ckanext/datitrentinoit/templates/package/base_form_page.html:5
 #, fuzzy
