@@ -6109,6 +6109,12 @@ msgid ""
 "        "
 msgstr ""
 
+#: ckanext/datitrentinoit/templates/package/snippets/package_form.html:33
+msgid ""
+"Important: by submitting content, you agree to our <a href="
+"\"{tc_url}\">Terms and conditions</a>."
+msgstr ""
+
 #: ckanext/datitrentinoit/templates/snippets/search_result_text.html:21
 msgid "{number} category found for \"{query}\""
 msgid_plural "{number} categories found for \"{query}\""

@@ -6291,7 +6291,7 @@ msgstr "Scegli un'area"
 
 #: ckanext/datitrentinoit/templates/base.html:8
 msgid "{title} Atom Feed"
-msgstr ""
+msgstr "Feed Atom di {title}"
 
 #: ckanext/datitrentinoit/templates/footer.html:11
 msgid "Frequently Asked Questions"
@@ -6389,16 +6389,15 @@ msgstr ""
 
 #: ckanext/datitrentinoit/templates/home/index.html:144
 msgid "Latest changes"
-msgstr ""
+msgstr "Ultime modifiche"
 
 #: ckanext/datitrentinoit/templates/home/index.html:145
 msgid "See which are the most recent changes to datasets."
 msgstr ""
 
 #: ckanext/datitrentinoit/templates/package/base_form_page.html:5
-#, fuzzy
 msgid "About datasets"
-msgstr "0 Datasets"
+msgstr "A proposito dei dataset"
 
 #: ckanext/datitrentinoit/templates/package/base_form_page.html:8
 msgid ""
@@ -6408,6 +6407,14 @@ msgid ""
 "        Datasets are what users see when searching for data.\n"
 "        "
 msgstr ""
+
+#: ckanext/datitrentinoit/templates/package/snippets/package_form.html:33
+msgid ""
+"Important: by submitting content, you agree to our <a href="
+"\"{tc_url}\">Terms and conditions</a>."
+msgstr ""
+"Importante: con l'invio di contenuti, dichiari di approvare i nostri <a href="
+"\"{tc_url}\">Termini e condizioni</a>."
 
 #: ckanext/datitrentinoit/templates/snippets/search_result_text.html:21
 msgid "{number} category found for \"{query}\""
