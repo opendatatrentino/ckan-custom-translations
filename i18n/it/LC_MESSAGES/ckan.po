@@ -6298,8 +6298,8 @@ msgid "Frequently Asked Questions"
 msgstr "Domande frequenti"
 
 #: ckanext/datitrentinoit/templates/footer.html:22
-#: ckanext/datitrentinoit/templates/pages/acknowledgements.html:3
-#: ckanext/datitrentinoit/templates/pages/acknowledgements.html:7
+#: ckanext/datitrentinoit/templates/pages/acknowledgements.html:4
+#: ckanext/datitrentinoit/templates/pages/acknowledgements.html:8
 msgid "Acknowledgements"
 msgstr "Ringraziamenti"
 
@@ -6354,14 +6354,11 @@ msgstr "Informazioni sulle categorie"
 
 #: ckanext/datitrentinoit/templates/group/index.html:51
 msgid ""
-"\n"
-"        You can use CKAN Groups to create and manage collections of\n"
-"        datasets. This could be to catalogue datasets for a particular "
-"project\n"
-"        or team, or on a particular theme, or as a very simple way to help\n"
-"        people find and search your own published datasets.\n"
-"        "
-msgstr "\nPuoi usare i Gruppi di Ckan per creare e gestire collezioni di dataset. Questo può servire per catalogare dataset per un particolare progetto o team, o un tema particolare, o come un semplice modo di aiutare i visitatori nel trovare i tuoi dataset pubblicati."
+"Categories group datasets into specific homogeneous fields of economic and/"
+"or functional areas."
+msgstr ""
+"Le categorie presentano i dataset entro specifici ambiti omogenei di settori "
+"economici e/o funzionali."
 
 #: ckanext/datitrentinoit/templates/group/snippets/group_form.html:10
 msgid "My Category"
@@ -6433,6 +6430,16 @@ msgstr ""
 msgid "Latest changes"
 msgstr "Ultime modifiche"
 
+#: ckanext/datitrentinoit/templates/organization/snippets/helper.html:8
+msgid ""
+"An organization identify and collects information related to its "
+"institutional source.<br>\n"
+"Usually organizations are the data holder entities."
+msgstr ""
+"Un'organizzazione individua e raccoglie le informazioni in relazione alla "
+"loro provenienza istituzionale.<br>\n"
+"Le organizzazioni sono solitamente le strutture titolari dei dati."
+
 #: ckanext/datitrentinoit/templates/package/base_form_page.html:5
 msgid "About datasets"
 msgstr "A proposito dei dataset"
@@ -6444,7 +6451,11 @@ msgid ""
 "        together with a description and other information, at a fixed URL.\n"
 "        Datasets are what users see when searching for data.\n"
 "        "
-msgstr "\nUn Dataset è una raccolta di sorgenti di dati (es. file), insieme a una descrizione e altre informazioni, a un preciso URL. I dataset sono quello che gli utenti vedono cercando dati."
+msgstr ""
+"\n"
+"Un Dataset è una raccolta di sorgenti di dati (es. file), insieme a una "
+"descrizione e altre informazioni, a un preciso URL. I dataset sono quello "
+"che gli utenti vedono cercando dati."
 
 #: ckanext/datitrentinoit/templates/package/snippets/package_form.html:33
 msgid ""
@@ -6453,6 +6464,36 @@ msgid ""
 msgstr ""
 "Importante: con l'invio di contenuti, dichiari di approvare i nostri <a href="
 "\"{tc_url}\">Termini e condizioni</a>."
+
+#: ckanext/datitrentinoit/templates/related/dashboard.html:21
+#, python-format
+msgid ""
+"\n"
+"            <p>Showing items <strong>%(first)s - %(last)s</strong> of "
+"<strong>%(item_count)s</strong> related items found</p>\n"
+"          "
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/related/dashboard.html:25
+#, python-format
+msgid ""
+"\n"
+"            <p><strong>%(item_count)s</strong> related items found</p>\n"
+"          "
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/related/dashboard.html:51
+msgid ""
+"On this page are listed the apps, contents and in general \"new-uses\" "
+"created - even partially - from the open data published in the catalog.<br>\n"
+"You can report new apps and ideas referring to our <a href="
+"\"{contacts_url}\">contacts</a>."
+msgstr ""
+"In questa pagina sono riportate le applicazioni, i contenuti e in generale i "
+"\"nuovi usi\" generati, anche solo in parte, dai dati aperti pubblicati sul "
+"catalogo.<br>\n"
+"Per segnalarne di nuovi è possibile fare riferimento ai contatti <a href="
+"\"{contacts_url}\">riportati qui</a>."
 
 #: ckanext/datitrentinoit/templates/snippets/search_result_text.html:21
 msgid "{number} category found for \"{query}\""
@@ -6474,6 +6515,14 @@ msgstr[1] "{number} categorie trovate"
 msgid "Sorry no categories found"
 msgstr "Nessuna categoria trovata"
 
+#: ckanext/datitrentinoit/templates/user/new.html:24
+msgid ""
+"To keep you up to date about the catalog activities and to follow updates "
+"about datasets you are interested in."
+msgstr ""
+"Per restare aggiornati sulle attività nel catalogo e seguire gli "
+"aggiornamenti di dati d'interesse"
+
 #: ckanext/datitrentinoit/templates/user/new_user_form.html:26
 msgid ""
 "By registering a user, you agree to our <a href=\"{tc_url}\">Terms and "
@@ -6483,3 +6532,19 @@ msgstr ""
 "Registrando un utente, accetti le nostre <a href=\"{tc_url}\">Condizioni</a> "
 "e confermi\n"
 "di aver letto la nostra <a href=\"{pp_url}\">Informativa sulla Privacy</a>"
+
+#~ msgid ""
+#~ "\n"
+#~ "        You can use CKAN Groups to create and manage collections of\n"
+#~ "        datasets. This could be to catalogue datasets for a particular "
+#~ "project\n"
+#~ "        or team, or on a particular theme, or as a very simple way to "
+#~ "help\n"
+#~ "        people find and search your own published datasets.\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "Puoi usare i Gruppi di Ckan per creare e gestire collezioni di dataset. "
+#~ "Questo può servire per catalogare dataset per un particolare progetto o "
+#~ "team, o un tema particolare, o come un semplice modo di aiutare i "
+#~ "visitatori nel trovare i tuoi dataset pubblicati."
