@@ -6389,6 +6389,15 @@ msgid ""
 "\"{tc_url}\">Legal notes</a>."
 msgstr ""
 
+#: ckanext/datitrentinoit/templates/package/snippets/package_metadata_fields.html:10
+msgid "Technical documentation"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/package/snippets/package_metadata_fields.html:10
+#, fuzzy
+msgid "http://example.com/dataset.json"
+msgstr "http://example.com/image.png"
+
 #: ckanext/datitrentinoit/templates/related/dashboard.html:21
 #, python-format
 msgid ""
@@ -6622,10 +6631,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "No organization"
 #~ msgstr "Organisation"
-
-#, fuzzy
-#~ msgid "http://example.com/dataset.json"
-#~ msgstr "http://example.com/image.png"
 
 #, fuzzy
 #~ msgid "Additional info"

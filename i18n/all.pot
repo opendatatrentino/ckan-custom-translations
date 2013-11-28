@@ -6152,6 +6152,14 @@ msgid ""
 "\"{tc_url}\">Legal notes</a>."
 msgstr ""
 
+#: ckanext/datitrentinoit/templates/package/snippets/package_metadata_fields.html:10
+msgid "Technical documentation"
+msgstr ""
+
+#: ckanext/datitrentinoit/templates/package/snippets/package_metadata_fields.html:10
+msgid "http://example.com/dataset.json"
+msgstr ""
+
 #: ckanext/datitrentinoit/templates/related/dashboard.html:21
 #, python-format
 msgid ""

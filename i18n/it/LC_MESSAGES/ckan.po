@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: CKAN\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2013-07-01 17:35+0100\n"
-"PO-Revision-Date: 2013-11-22 12:09+0100\n"
+"PO-Revision-Date: 2013-11-28 17:29+0100\n"
 "Last-Translator: amercader <amercadero@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/ckan/language/"
 "it/)\n"
@@ -3382,7 +3382,7 @@ msgstr "Origine"
 #: ckan/templates_legacy/package/new_package_form.html:205
 #: ckan/templates_legacy/package/read_core.html:73
 msgid "Maintainer"
-msgstr "Manutentore"
+msgstr "Referente"
 
 #: ckan/templates/package/snippets/additional_info.html:45
 #: ckan/templates_legacy/package/new_package_form.html:220
@@ -3490,7 +3490,7 @@ msgstr "joe@example.com"
 
 #: ckan/templates/package/snippets/package_metadata_fields.html:14
 msgid "Maintainer Email"
-msgstr "E-mail del manutentore"
+msgstr "E-mail contatto"
 
 #: ckan/templates/package/snippets/package_metadata_form.html:14
 #: ckan/templates/package/snippets/resource_form.html:89
@@ -6463,6 +6463,15 @@ msgid ""
 msgstr ""
 "Importante: con l'invio di contenuti confermi di aver preso visione e "
 "conformarti alle <a href=\"{tc_url}\">Note Legali del Portale</a>."
+
+#: ckanext/datitrentinoit/templates/package/snippets/package_metadata_fields.html:10
+msgid "Technical documentation"
+msgstr "Documentazione tecnica"
+
+#: ckanext/datitrentinoit/templates/package/snippets/package_metadata_fields.html:10
+#, fuzzy
+msgid "http://example.com/dataset.json"
+msgstr "http://example.com/my-image.jpg"
 
 #: ckanext/datitrentinoit/templates/related/dashboard.html:21
 #, python-format
