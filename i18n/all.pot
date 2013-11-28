@@ -6146,10 +6146,10 @@ msgid ""
 "        "
 msgstr ""
 
-#: ckanext/datitrentinoit/templates/package/snippets/package_form.html:33
+#: ckanext/datitrentinoit/templates/package/snippets/package_form.html:29
 msgid ""
 "Important: by submitting content, you agree to our <a href="
-"\"{tc_url}\">Terms and conditions</a>."
+"\"{tc_url}\">Legal notes</a>."
 msgstr ""
 
 #: ckanext/datitrentinoit/templates/related/dashboard.html:21
@@ -6203,9 +6203,8 @@ msgid ""
 "about datasets you are interested in."
 msgstr ""
 
-#: ckanext/datitrentinoit/templates/user/new_user_form.html:26
+#: ckanext/datitrentinoit/templates/user/new_user_form.html:29
 msgid ""
-"By registering a user, you agree to our <a href=\"{tc_url}\">Terms and "
-"conditions</a> and that you have read our <a href=\"{pp_url}\">Privacy "
-"policy</a>."
+"By registering a user, you confirm you read our <a href=\"{tc_url}\">Legal "
+"notes</a> and <a href=\"{pp_url}\">Privacy policy</a>."
 msgstr ""
