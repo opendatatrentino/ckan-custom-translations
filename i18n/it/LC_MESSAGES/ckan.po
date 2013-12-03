@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: CKAN\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2013-07-01 17:35+0100\n"
-"PO-Revision-Date: 2013-12-03 17:01+0100\n"
+"PO-Revision-Date: 2013-12-03 17:26+0100\n"
 "Last-Translator: amercader <amercadero@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/ckan/language/"
 "it/)\n"
@@ -3481,7 +3481,7 @@ msgstr "Joe Bloggs"
 
 #: ckan/templates/package/snippets/package_metadata_fields.html:8
 msgid "Author Email"
-msgstr "Mittente"
+msgstr "Email Autore"
 
 #: ckan/templates/package/snippets/package_metadata_fields.html:8
 #: ckan/templates/package/snippets/package_metadata_fields.html:14
