@@ -6139,11 +6139,9 @@ msgstr ""
 
 #: ckanext/datitrentinoit/templates/package/base_form_page.html:8
 msgid ""
-"\n"
-"        A CKAN Dataset is a collection of data resources (such as files),\n"
-"        together with a description and other information, at a fixed URL.\n"
-"        Datasets are what users see when searching for data.\n"
-"        "
+"A CKAN Dataset is a collection of data resources (such as files), together "
+"with a description and other information, at a fixed URL.<br>Datasets are "
+"what users see when searching for data."
 msgstr ""
 
 #: ckanext/datitrentinoit/templates/package/snippets/package_form.html:29
