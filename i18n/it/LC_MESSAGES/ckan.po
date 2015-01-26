@@ -3686,7 +3686,7 @@ msgstr "Cosa sono le applicazioni?"
 
 #: ckan/templates/related/dashboard.html:50
 msgid ""
-" These are applications built with the datasets as well as ideas for things "
+"These are applications built with the datasets as well as ideas for things "
 "that could be done with them. "
 msgstr ""
 "Sono applicazioni sviluppate con i dataset oltre a idee su cosa si potrebbe "
