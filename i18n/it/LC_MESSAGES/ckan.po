@@ -6445,14 +6445,8 @@ msgid "About datasets"
 msgstr "A proposito dei dataset"
 
 #: ckanext/datitrentinoit/templates/package/base_form_page.html:8
-msgid ""
-"A CKAN Dataset is a collection of data resources (such as files), together "
-"with a description and other information, at a fixed URL.<br>Datasets are "
-"what users see when searching for data."
-msgstr ""
-"Un Dataset è una raccolta di sorgenti di dati (es. file), insieme a una "
-"descrizione e altre informazioni, a un preciso URL. I dataset sono quello "
-"che gli utenti vedono cercando dati."
+msgid "A CKAN Dataset is a collection of data resources (such as files), together with a description and other information, at a fixed URL.<br>Datasets are what users see when searching for data."
+msgstr "Un Dataset è una raccolta di sorgenti di dati (es. file), insieme a unadescrizione e altre informazioni, a un preciso URL. I dataset sono quello che gli utenti vedono cercando dati."
 
 #: ckanext/datitrentinoit/templates/package/snippets/package_form.html:29
 msgid ""
