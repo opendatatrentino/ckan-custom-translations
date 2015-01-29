@@ -6415,7 +6415,7 @@ msgstr ""
 
 #: ckanext/datitrentinoit/templates/related/dashboard.html:51
 msgid "On this page are listed the apps."
-msgstr "On this page are listed the apps, contents and in general \"new-uses\" created - even partially - from the open data published in the catalog.<br>You can report new apps and ideas referring to our <a href=\"{ contacts_url }\">contacts</a>."
+msgstr "On this page are listed the apps, contents and in general \"new-uses\" created - even partially - from the open data published in the catalog.<br>You can report new apps and ideas referring to our <a href=\"mailto:dati.trentino.it\">email contact</a>."
 
 
 #: ckanext/datitrentinoit/templates/snippets/search_result_text.html:21

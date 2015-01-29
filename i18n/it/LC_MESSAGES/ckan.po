@@ -6483,7 +6483,7 @@ msgstr ""
 
 #: ckanext/datitrentinoit/templates/related/dashboard.html:51
 msgid "On this page are listed the apps."
-msgstr "In questa pagina sono riportate le applicazioni, i contenuti e in generale i \"nuovi usi generati\", anche solo in parte, dai dati aperti pubblicati sul catalogo.<br>Per segnalarne di nuovi è possibile fare riferimento ai contatti <a href=\"{contacts_url}\">riportati qui</a>."
+msgstr "In questa pagina sono riportate le applicazioni, i contenuti e in generale i \"nuovi usi generati\", anche solo in parte, dai dati aperti pubblicati sul catalogo.<br>Per segnalarne di nuovi è possibile farlo alla mail <a href=\"mailto:dati.trentino.it\">riportata qui</a>."
 
 #: ckanext/datitrentinoit/templates/snippets/search_result_text.html:21
 msgid "{number} category found for \"{query}\""
