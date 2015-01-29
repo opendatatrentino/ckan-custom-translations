@@ -22,7 +22,7 @@ SOURCESDIR := $(HOME)/Projects/dati-trentino-2
 PLUGINS := datitrentinoit
 
 ## Languages to consider for translations
-LANGUAGES := it en_GB
+LANGUAGES := it en
 
 ## ---- % end configuration % ----
 
