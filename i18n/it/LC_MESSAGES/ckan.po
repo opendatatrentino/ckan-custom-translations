@@ -3303,7 +3303,7 @@ msgstr "Valore"
 #: ckan/templates/package/resource_read.html:97
 #: ckan/templates_legacy/package/resource_read.html:100
 msgid "Last updated"
-msgstr "Visualizzazione aggiornata a"
+msgstr "Ultimo aggiornamento risorsa(*)"
 
 #: ckan/templates/package/resource_read.html:98
 #: ckan/templates/package/resource_read.html:102
