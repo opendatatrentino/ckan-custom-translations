@@ -2872,7 +2872,7 @@ msgstr "eg. Prezzi dell Oro"
 
 #: ckan/templates/home/index.html:73
 msgid "Popular Tags"
-msgstr "Tags popolari"
+msgstr "Tags più rappresentati"
 
 #: ckan/templates/home/snippets/about_text.html:1
 msgid ""
@@ -3279,7 +3279,7 @@ msgstr "Sorgente: <a href=\"%(url)s\">%(dataset)s</a>"
 #: ckan/templates_legacy/package/read_core.html:49
 #: ckan/templates_legacy/package/resource_read.html:158
 msgid "Additional Information"
-msgstr "Informazioni supplementari"
+msgstr "Informazioni per gli sviluppatori"
 
 #: ckan/templates/package/resource_read.html:91
 #: ckan/templates/package/snippets/additional_info.html:6
@@ -3383,7 +3383,7 @@ msgstr "Origine"
 #: ckan/templates_legacy/package/new_package_form.html:205
 #: ckan/templates_legacy/package/read_core.html:73
 msgid "Maintainer"
-msgstr "Referente"
+msgstr "Contatto/Referente"
 
 #: ckan/templates/package/snippets/additional_info.html:45
 #: ckan/templates_legacy/package/new_package_form.html:220
