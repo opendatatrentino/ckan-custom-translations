@@ -27,6 +27,7 @@ msgstr ""
 "Generated-By: Babel 0.9.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+
 #: ckan/new_authz.py:82
 #, python-format
 msgid "Authorization function not found: %s"
